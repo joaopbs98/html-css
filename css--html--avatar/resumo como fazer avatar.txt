@@ -1,0 +1,61 @@
+fazer codigo de avatar:
+    <a href="" class="avatar">
+        <img class="avatar_thumbnai" src""">
+    <div class="avatar_status"></div>
+    </a> 
+
+ccs: 
+
+.avatar
+psition: relative;
+display: inline-block;
+width: 30px
+height: 30px
+
+
+
+.avatar_thumbnail(border-radius: 100%;
+
+
+em vez de colocar a div com avatar atatus, colocar um pseudo elemento
+.avatar::after
+content="
+width: calc(100% /5);
+height: 12px;
+background: red;
+border-radius: 100%;
+position: absolute;
+bottom: 10%;
+right: 10%;
+
+
+e não:
+
+.avatar_status 
+width: 12px;
+height: 12px;
+background: red;
+border-radius: 100%;
+position: absolute;
+bottom: 10%;
+right: 10%;
+
+/**modificadores**/
+.avatar--s
+width: 16px;
+height: 16px;
+
+.avatar--m
+width: 20px;
+height: 20px;
+
+.avatar--l
+width: 40px;
+height: 40px;
+
+
+
+etc.
+
+
+
