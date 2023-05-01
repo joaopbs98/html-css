@@ -1,0 +1,8 @@
+instalar no terminal npm , se for preciso pesquisar
+npm é um sitio com bibliotecas que podemos registar num pacote json
+browsersync simular sevidor e sincroniza o pacote com o browser que permite desenvolver algo com pese cabeças
+trabalhamos em servidores corridos localmente
+local para staging para QA 
+o entry point é index.html
+ponto . quer dizer que estou na raiz
+../ é para descer (ver os index.html das pastas)
