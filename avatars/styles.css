@@ -1,0 +1,163 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar--xs {
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
+
+.avatar--l {
+    position: relative;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+}
+
+.avatar--xl {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+}
+
+/* .avatar::after {
+    width: calc(100% /5);
+    height: calc(100% /5);
+    background: red;
+    border-radius: 100%;
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+} */
+
+.avatar_thumbnail {
+    border-radius: 100%;
+    width: 100%;
+}
+
+.avatar_status {
+    width: calc(100% /3);
+    height: calc(100% /3);
+    border-radius: 100%;
+    background-color: red;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+/* .button {
+    background-color: darkgrey;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}  */
+
+.btn {
+    background-color: darkgrey;
+    border: none;
+    color: white;
+    /* text-align: center; */
+    /* display: inline-block; */
+    font-size: 14px;
+    /* padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px; */
+    /* 
+    padding: t r b l;
+    padding: 8px 16px 8px 16px;
+    padding: 8px 16px;
+    */
+    padding: 8px 16px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+} 
+
+.btn_small {
+    background-color: darkgrey;
+    border: none;
+    color: white;
+    /* text-align: center; */
+    /* display: inline-block; */
+    font-size: 14px;
+    /* padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px; */
+    /* 
+    padding: t r b l;
+    padding: 8px 16px 8px 16px;
+    padding: 8px 16px;
+    */
+    padding: 4px 12px;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+} 
+/* pseudo selectores  */
+.btn:hover {
+    background: red;
+}  
+
+.btn:active {
+    background: blue;
+}
+
+#btn--click {
+background-color: blue;
+} 
+
+#btn--hover {
+    background-color: green;
+} 
+
+#btn--warning {
+background-color: darkorange;
+} 
+
+#btn--error {
+    background-color: red;
+} 
+
+.alert {
+    background-color: lightslategrey;
+    display: inline-block;
+    border: none;
+    color: white;
+    font-size: 14px;
+    padding: 8px 16px;
+    margin: 10px;
+} 
+
+#alert_success {
+    background-color: green;
+} 
+
+#alert_warning {
+    background-color: orange;
+} 
+
+#alert_error, #alert_fatal {
+    background-color: red;
+} 

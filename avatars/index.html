@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <section>
+        <div>
+            <section>
+                <a href="" class="avatar--xs">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                    <div class="avatar_status"></div>
+                </a>
+                <a href="" class="avatar">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                    <div class="avatar_status"></div>
+                </a>
+                <a href="" class="avatar--l">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                    <div class="avatar_status"></div>
+                </a>
+                <a href="" class="avatar--xl">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                    <div class="avatar_status"></div>
+                </a>
+                <span href="" class="avatar">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                </span>
+        </div>
+        <div>
+            <section>
+                <a href="" class="avatar--xs">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                </a>
+                <a href="" class="avatar">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                </a>
+                <a href="" class="avatar--l">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                </a>
+                <a href="" class="avatar--xl">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                </a>
+                <span href="" class="avatar">
+                    <img class="avatar_thumbnail" src="/assets/avatar.svg">
+                </span>
+        </div>
+    </section>
+
+    <section class="Typography">
+        <h3>Typography</h3>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+        <p>Paragraph</p>
+    </section>
+    <section>
+        <div>
+            <h3>Buttons</h3>
+            <div class="d-flex">
+                <button class="btn">Button</button>
+
+
+
+                <button USAR class="btn btn-primary">Button Click</button>
+    
+    
+    ver tailwind button components para dar nome a class
+
+    ver "em" vs "rem"
+
+    vamos fazer reset aos parametros do browser a partir de agora a frente
+                usamos o reset do meyers
+                criamos um reset.css e linkamos
+
+    o "vw" é uma unidade da view width ecra inteiro tipo 50%Vw é metade da view width
+                ao usar vw temos de usar min-width e max-width para ter controlo dos maximos e minimos
+                podemos usar width:clamp(150px, 25vw, 200px)
+
+                rgba tem transparencia rgb nao
+
+                usar object-fit para fazer crop a imagens
+                object-position para posicionar imagem
+
+                quando usamos css para background-image temos de inserir tamanho ou nao aparece
+
+                para meter a imagem fixa no background usamos background-attachment:fixed
+                    fica sempre fixa mesmo no scroll
+
+    
+                <button class="btn" id="btn--hover">Button Hover</button>
+                <button class="btn" id="btn--warning">Button Warning</button>
+                <button class="btn" id="btn--error">Button Error</button>
+            </div>
+        </div>
+        <div>
+            <h3>Buttons Small</h3>
+            <button class="btn_small">Button</button>
+            <button class="btn_small" id="btn--click">Button Click</button>
+            <button class="btn_small" id="btn--hover">Button Hover</button>
+            <button class="btn_small" id="btn--warning">Button Warning</button>
+            <button class="btn_small" id="btn--error">Button Error</button>
+    </div>
+
+    FALTA OUTLINE 
+
+    <section class="Alertas">
+        <h3>Alerts</h3>
+        <div>
+            <span class="alert">
+                Lorem ipsum dolor sit amet. <span class="close_x">&times;</span>
+            </span>
+        </div>
+        <div>
+            <span class="alert" id="alert_success">
+                Lorem ipsum dolor sit amet.
+            </span> 
+        </div>
+        <div>
+            <span class="alert" id="alert_error">
+                Lorem ipsum dolor sit amet.
+            </span>
+        </div>
+         <div>
+            <span class="alert" id="alert_warning">
+                Lorem ipsum dolor sit amet.
+            </span>
+         </div>
+         <div>
+            <span class="alert" id="alert_fatal">
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            </span>
+         </div>
+    </section>
+</body>
+
+</html>
