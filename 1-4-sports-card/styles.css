@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(90deg, pink, purple) ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 450px;
+    height: 700px;
+    box-shadow: 0px 30px 30px rgba(117, 9, 117, 0.541),0px 30px 60px rgba(66, 39, 66, 0.459) ;
+}
+
+.card-header-body {
+    background: linear-gradient(60deg, red, orange) ;
+    color: white;
+    position: relative;
+    padding:18px;
+    height:550px;
+    padding-top:16px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    overflow:hidden;
+}
+
+.card-header {
+    margin-bottom: 40px;
+}
+.card-bottom {
+    background: white;
+    position: relative;
+    padding: 16px;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}  
+
+.product-image {
+    z-index: 2;
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    height:72%;
+}
+
+.card-button {
+    background-color:white;
+    color: white;
+    font-size: 20px;
+    padding: 12px 44px;
+    border-radius: 40px;
+    border-color: blue;
+    color:blue;  
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 33%;
+    z-index: 3;
+}
+
+
+.card-button:hover {
+    background-color: blue;
+    color:white;
+    border-color: white;
+}
+
+.card-backdrop {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.425);
+    font-size: 350px;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -5%;
+    position: absolute;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.card-price {
+    position: absolute;
+    right: 16px;
+    top: 30px;
+    font-size: 22px;
+}
+
+.card-product-category {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    letter-spacing: 5px;
+    color: rgb(201, 201, 201);
+    font-size: medium;
+    white-space: nowrap;
+}
