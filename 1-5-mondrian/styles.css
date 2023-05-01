@@ -1,0 +1,297 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(10, 10, 10);
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+    gap: 24px;
+    display: grid;
+    place-content: center;
+    grid-template-columns: repeat(3, 0.5fr);
+    padding: 24px;
+}
+
+.board {
+    background: rgba(20, 20, 20);
+    aspect-ratio: 1;
+    border: 1px solid rgba(40, 40, 40);
+    padding: 12px;
+}
+
+.b-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    
+}
+
+div {
+    border-radius: 8px;
+}
+
+/* BG-colors */
+.bg-gray {
+    background: #fafafa;
+}
+
+.bg-blue {
+    background: #6979f8;
+}
+
+.bg-red {
+    background: #ff647c;
+}
+
+.bg-orange {
+    background: #ffa26b;
+}
+
+.bg-green {
+    background: #00c48c;
+}
+
+.bg-purple {
+    background: #be52f2;
+}
+
+.bg-pink {
+    background: #fbe4e8;
+}
+
+.ex1-box {
+    width:50px;
+}
+
+.ex1-board {
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.ex4-board {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.ex4-box {
+    width:8vh;
+    height: 8vh;
+}
+
+.ex2-board {
+    display:flex;
+    justify-content: space-around;
+   }
+
+.ex2-box {
+    height: 50%;
+    width: 20px
+
+}
+
+.box-end {
+    align-self:flex-end;
+} 
+
+/* .upper-board {
+    display:flex;
+    justify-content: space-around;
+}
+
+.lower-board {
+    display:flex;
+    justify-content:center;
+}
+
+.ex2--box {
+    height:20vh;
+    width:5vh;
+}
+
+.ex2-board {
+    display: flex;
+    flex-direction: column;
+} */
+
+.ex3-box {
+    width:5vh;
+}
+
+.ex3-board {
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.ex5-board {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .ex5-box {
+    width: 100%;
+    height: 20%;
+  }
+  
+  .ex5-boxcolumn {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .ex5-bottom {
+    display: flex;
+    height: 80%;
+    gap:4px;
+  }
+
+  .ex6-board {
+    display: flex;
+    gap:4px;
+  }
+
+  .ex6-box {
+    height:100%;
+    width:20%
+  }
+
+  .ex6-width {
+    width:80%;
+  }
+
+  .ex7-board {
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+  }
+
+  .ex7-box {
+    height:20%;
+    width:100%
+  }
+
+  .ex7-height {
+    height:80%;
+  }
+
+  .ex8-board {
+    display: flex;
+    gap:4px;
+  }
+
+  .ex8-box {
+    height:100%;
+    width:20%
+  }
+
+  .ex8-width {
+    width:80%;
+  }
+
+  .ex8-wrapbox {
+    width: calc(33% - 1px);
+    height:10%;
+  }
+
+  .ex8-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    align-content: flex-end;
+    gap:1px;
+  }
+
+  .ex9-board {
+    display: flex;
+    gap:4px;
+    flex-direction: column;
+  }
+
+  .ex9-box {
+    height:100%;
+    width:20%
+  }
+
+  .ex9-width {
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+  }
+
+  .ex9-boxin {
+    width:100%;
+    height:20%;
+  }
+
+    .ex9-bottombox {
+        width: 100%;
+        height:20%;
+  }
+
+  .ex9-container {
+    display: flex;
+    width:100%;
+    height:80%;
+    gap:4px
+  }
+
+  .ex10-board {
+    display: flex;
+  }
+
+  .ex10-left {
+    display: flex;
+    width:50%;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ex10-leftorange {
+    width:60px;
+    height:50px;
+  }
+
+  .ex10-leftgreen {
+    width:100%;
+    height:50px;
+  }
+
+  .ex10-right {
+    display: flex;
+    width:50%;
+    height:100%;
+    gap: 4px;
+  }
+
+  .ex10-rightpurple {
+    width:100%;
+    height:40%;
+  }
+
+  .ex10-rightcenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+    width:100%;
+  }
+
+  .ex10-rightgreen {
+    width:100%;
+    height:60%;
+  }
